@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  background-color:rgb(29, 35, 36);
+}
+*{
+  box-sizing: border-box;
+}
+ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+  background-color: rgb(220, 150, 20);
+  overflow: hidden;
+  
+}
+li{
+  float: left;
+  letter-spacing: 1.5px;
+}
+.icons{
+  float: right;
+}
+li a{
+  color: rgb(22, 19, 19);
+  text-decoration: none;
+  padding: 10px 16px;
+  display: block;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+li a:hover{
+  background-color: rgb(37, 36, 26);
+  color: rgb(234, 234, 234)
+}
+
+#main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie{
+  width: 200px;
+  margin: 10px;
+  background-color:rgb(69, 66, 48);
+  border-radius: 20px;
+}
+.movie img{
+  width: 100%;
+  border-radius: 19px;
+}
+h4{
+  display: flex;
+  justify-content: left;
+  color: azure;
+  padding: 10px;
+  margin: 0;
+  letter-spacing: 1.5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.movie span{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(104, 107, 107);
+  padding-left: 10px;
+  
+}
+#type{
+  background-color: rgb(48 46 33);
+  margin-left: 40px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+.movie div{
+  position: relative;
+}
+#rate {
+  position: absolute;
+  /* float: right; */
+  top: 8px;
+  left: 10.7em;
+  text-align: center;
+  right: -0.6em;
+  background-color: orange;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+.movie a{
+  text-decoration: none;
+}
+.movie:hover{
+  background-color:rgb(187, 130, 31);
+  border: 1px rgb(22, 20, 13) solid;
+}
+.container{
+  padding: 0 5em;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#moviePic{
+  margin-right: 50px;
+}
+#moviePic img{
+  border-radius: 10px;
+}
+#title{
+  padding-top: 50px;
+}
+#title h1, p{
+  color: azure;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#overview{
+  color:rgb(120, 125, 125);
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 35px;
+  border: none;
+  outline: none;
+  color: #ffa500;
+  cursor: pointer;
+  padding: 11px;
+  border-radius: 8px;
+}
+
+#myBtn:hover {
+  color: rgb(94, 91, 72);
+}
