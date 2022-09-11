@@ -96,13 +96,16 @@ h4{
   margin-bottom: 50px;
 }
 #moviePic{
-  margin-right: 50px;
+  /* margin-right: 50px; */
+  width: 100%;
 }
 #moviePic img{
   border-radius: 10px;
+  
 }
 #title{
   padding-top: 50px;
+  padding-left: 50px;
 }
 #title h1, p{
   color: azure;
@@ -132,4 +135,34 @@ h4{
 
 #myBtn:hover {
   color: rgb(94, 91, 72);
+}
+
+
+@media only screen and (max-width:680px) {
+  .icons{
+    display: none;
+  }
+  #overview {
+      font-size: 4vw;
+  }
+   #title p {
+    font-size: 3vw;
+   }
+   #title h1{
+    font-size: 6vw;
+   }
+  #title{
+    padding-left: 0;
+  }
+  
+}
+@media  screen and (max-width:1000px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #moviePic img {
+    width: 100%;
+  }
 }
