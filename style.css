@@ -23,7 +23,7 @@ li{
 li a{
   color: rgb(22, 19, 19);
   text-decoration: none;
-  padding: 10px 13px;
+  padding: 10px 11px;
   display: block;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
@@ -141,7 +141,7 @@ h4{
   color: rgb(22, 19, 19);
   padding: 10px 10px;
   padding-right: 18px;
-  font-size: 18px;
+  font-size: 16px;
   border: none;
   cursor: pointer;
 }
