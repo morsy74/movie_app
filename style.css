@@ -37,6 +37,17 @@ li a:hover{
   flex-wrap: wrap;
   justify-content: center;
 }
+#main1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#main1 .movie{
+  width: 300px;
+}
+#main1 .movie img {
+  height: 250px;
+}
 .movie{
   width: 200px;
   margin: 10px;
@@ -61,6 +72,12 @@ h4{
   color: rgb(104, 107, 107);
   padding-left: 10px;
   
+}
+#main1 .movie #type {
+  background-color: rgb(48 46 33);
+  margin-left: 9em;
+  padding-right: 10px;
+  border-radius: 5px;
 }
 #type{
   background-color: rgb(48 46 33);
@@ -89,15 +106,21 @@ h4{
   background-color:rgb(187, 130, 31);
   border: 1px rgb(22, 20, 13) solid;
 }
+#cityDetails .container #moviePic img{
+  width: 100%;
+
+}
+#cityDetails .container #moviePic {
+  padding-top: 50px;
+  /* width: 100%; */
+}
 .container{
   padding: 0 5em;
   display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-#moviePic{
-  width: 100%;
-}
+
 #moviePic img{
   border-radius: 10px;
   
